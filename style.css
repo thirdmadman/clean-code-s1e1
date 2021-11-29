@@ -18,10 +18,9 @@ body {
 }
 
 @media (max-width: 768px) {
-.aaa 
-{
-  text-align: center;
-}
+  .aaa {
+    text-align: center;
+  }
 }
 .centered-main-page-element {
   display: block;
@@ -45,7 +44,7 @@ h3 {
   list-style: none;
 }
 input,
-button{
+button {
   outline: none;
 }
 button {
@@ -119,7 +118,7 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li >  input[type="text"] {
+li > input[type="text"] {
   width: 226px;
 }
 button.delete img {
@@ -138,11 +137,11 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul li input[type="text"] {
   display: none;
 }
 
-ul li.editMode input[type=text] {
+ul li.editMode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
